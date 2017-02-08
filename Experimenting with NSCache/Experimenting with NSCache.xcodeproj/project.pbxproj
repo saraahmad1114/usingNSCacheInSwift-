@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BE9DF1A1E4AB5910027566D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE9DF191E4AB5910027566D /* AppDelegate.swift */; };
+		1BE9DF1C1E4AB5910027566D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE9DF1B1E4AB5910027566D /* ViewController.swift */; };
+		1BE9DF1F1E4AB5910027566D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BE9DF1D1E4AB5910027566D /* Main.storyboard */; };
+		1BE9DF221E4AB5910027566D /* Experimenting_with_NSCache.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1BE9DF201E4AB5910027566D /* Experimenting_with_NSCache.xcdatamodeld */; };
+		1BE9DF241E4AB5910027566D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BE9DF231E4AB5910027566D /* Assets.xcassets */; };
+		1BE9DF271E4AB5910027566D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BE9DF251E4AB5910027566D /* LaunchScreen.storyboard */; };
+		1BE9DF321E4AB5910027566D /* Experimenting_with_NSCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE9DF311E4AB5910027566D /* Experimenting_with_NSCacheTests.swift */; };
+		1BE9DF3D1E4AB5910027566D /* Experimenting_with_NSCacheUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE9DF3C1E4AB5910027566D /* Experimenting_with_NSCacheUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BE9DF2E1E4AB5910027566D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BE9DF0E1E4AB5910027566D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BE9DF151E4AB5910027566D;
+			remoteInfo = "Experimenting with NSCache";
+		};
+		1BE9DF391E4AB5910027566D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BE9DF0E1E4AB5910027566D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BE9DF151E4AB5910027566D;
+			remoteInfo = "Experimenting with NSCache";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BE9DF161E4AB5910027566D /* Experimenting with NSCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Experimenting with NSCache.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE9DF191E4AB5910027566D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BE9DF1B1E4AB5910027566D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1BE9DF1E1E4AB5910027566D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BE9DF211E4AB5910027566D /* Experimenting_with_NSCache.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Experimenting_with_NSCache.xcdatamodel; sourceTree = "<group>"; };
+		1BE9DF231E4AB5910027566D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BE9DF261E4AB5910027566D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BE9DF281E4AB5910027566D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BE9DF2D1E4AB5910027566D /* Experimenting with NSCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Experimenting with NSCacheTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE9DF311E4AB5910027566D /* Experimenting_with_NSCacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experimenting_with_NSCacheTests.swift; sourceTree = "<group>"; };
+		1BE9DF331E4AB5910027566D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BE9DF381E4AB5910027566D /* Experimenting with NSCacheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Experimenting with NSCacheUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE9DF3C1E4AB5910027566D /* Experimenting_with_NSCacheUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experimenting_with_NSCacheUITests.swift; sourceTree = "<group>"; };
+		1BE9DF3E1E4AB5910027566D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BE9DF131E4AB5910027566D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BE9DF2A1E4AB5910027566D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BE9DF351E4AB5910027566D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BE9DF0D1E4AB5910027566D = {
+			isa = PBXGroup;
+			children = (
+				1BE9DF181E4AB5910027566D /* Experimenting with NSCache */,
+				1BE9DF301E4AB5910027566D /* Experimenting with NSCacheTests */,
+				1BE9DF3B1E4AB5910027566D /* Experimenting with NSCacheUITests */,
+				1BE9DF171E4AB5910027566D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BE9DF171E4AB5910027566D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BE9DF161E4AB5910027566D /* Experimenting with NSCache.app */,
+				1BE9DF2D1E4AB5910027566D /* Experimenting with NSCacheTests.xctest */,
+				1BE9DF381E4AB5910027566D /* Experimenting with NSCacheUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BE9DF181E4AB5910027566D /* Experimenting with NSCache */ = {
+			isa = PBXGroup;
+			children = (
+				1BE9DF191E4AB5910027566D /* AppDelegate.swift */,
+				1BE9DF1B1E4AB5910027566D /* ViewController.swift */,
+				1BE9DF1D1E4AB5910027566D /* Main.storyboard */,
+				1BE9DF231E4AB5910027566D /* Assets.xcassets */,
+				1BE9DF251E4AB5910027566D /* LaunchScreen.storyboard */,
+				1BE9DF281E4AB5910027566D /* Info.plist */,
+				1BE9DF201E4AB5910027566D /* Experimenting_with_NSCache.xcdatamodeld */,
+			);
+			path = "Experimenting with NSCache";
+			sourceTree = "<group>";
+		};
+		1BE9DF301E4AB5910027566D /* Experimenting with NSCacheTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BE9DF311E4AB5910027566D /* Experimenting_with_NSCacheTests.swift */,
+				1BE9DF331E4AB5910027566D /* Info.plist */,
+			);
+			path = "Experimenting with NSCacheTests";
+			sourceTree = "<group>";
+		};
+		1BE9DF3B1E4AB5910027566D /* Experimenting with NSCacheUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1BE9DF3C1E4AB5910027566D /* Experimenting_with_NSCacheUITests.swift */,
+				1BE9DF3E1E4AB5910027566D /* Info.plist */,
+			);
+			path = "Experimenting with NSCacheUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BE9DF151E4AB5910027566D /* Experimenting with NSCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BE9DF411E4AB5910027566D /* Build configuration list for PBXNativeTarget "Experimenting with NSCache" */;
+			buildPhases = (
+				1BE9DF121E4AB5910027566D /* Sources */,
+				1BE9DF131E4AB5910027566D /* Frameworks */,
+				1BE9DF141E4AB5910027566D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Experimenting with NSCache";
+			productName = "Experimenting with NSCache";
+			productReference = 1BE9DF161E4AB5910027566D /* Experimenting with NSCache.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BE9DF2C1E4AB5910027566D /* Experimenting with NSCacheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BE9DF441E4AB5910027566D /* Build configuration list for PBXNativeTarget "Experimenting with NSCacheTests" */;
+			buildPhases = (
+				1BE9DF291E4AB5910027566D /* Sources */,
+				1BE9DF2A1E4AB5910027566D /* Frameworks */,
+				1BE9DF2B1E4AB5910027566D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BE9DF2F1E4AB5910027566D /* PBXTargetDependency */,
+			);
+			name = "Experimenting with NSCacheTests";
+			productName = "Experimenting with NSCacheTests";
+			productReference = 1BE9DF2D1E4AB5910027566D /* Experimenting with NSCacheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1BE9DF371E4AB5910027566D /* Experimenting with NSCacheUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BE9DF471E4AB5910027566D /* Build configuration list for PBXNativeTarget "Experimenting with NSCacheUITests" */;
+			buildPhases = (
+				1BE9DF341E4AB5910027566D /* Sources */,
+				1BE9DF351E4AB5910027566D /* Frameworks */,
+				1BE9DF361E4AB5910027566D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BE9DF3A1E4AB5910027566D /* PBXTargetDependency */,
+			);
+			name = "Experimenting with NSCacheUITests";
+			productName = "Experimenting with NSCacheUITests";
+			productReference = 1BE9DF381E4AB5910027566D /* Experimenting with NSCacheUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BE9DF0E1E4AB5910027566D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Flatiron School";
+				TargetAttributes = {
+					1BE9DF151E4AB5910027566D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					1BE9DF2C1E4AB5910027566D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1BE9DF151E4AB5910027566D;
+					};
+					1BE9DF371E4AB5910027566D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1BE9DF151E4AB5910027566D;
+					};
+				};
+			};
+			buildConfigurationList = 1BE9DF111E4AB5910027566D /* Build configuration list for PBXProject "Experimenting with NSCache" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BE9DF0D1E4AB5910027566D;
+			productRefGroup = 1BE9DF171E4AB5910027566D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BE9DF151E4AB5910027566D /* Experimenting with NSCache */,
+				1BE9DF2C1E4AB5910027566D /* Experimenting with NSCacheTests */,
+				1BE9DF371E4AB5910027566D /* Experimenting with NSCacheUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BE9DF141E4AB5910027566D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE9DF271E4AB5910027566D /* LaunchScreen.storyboard in Resources */,
+				1BE9DF241E4AB5910027566D /* Assets.xcassets in Resources */,
+				1BE9DF1F1E4AB5910027566D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BE9DF2B1E4AB5910027566D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BE9DF361E4AB5910027566D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BE9DF121E4AB5910027566D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE9DF1C1E4AB5910027566D /* ViewController.swift in Sources */,
+				1BE9DF1A1E4AB5910027566D /* AppDelegate.swift in Sources */,
+				1BE9DF221E4AB5910027566D /* Experimenting_with_NSCache.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BE9DF291E4AB5910027566D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE9DF321E4AB5910027566D /* Experimenting_with_NSCacheTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BE9DF341E4AB5910027566D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE9DF3D1E4AB5910027566D /* Experimenting_with_NSCacheUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BE9DF2F1E4AB5910027566D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BE9DF151E4AB5910027566D /* Experimenting with NSCache */;
+			targetProxy = 1BE9DF2E1E4AB5910027566D /* PBXContainerItemProxy */;
+		};
+		1BE9DF3A1E4AB5910027566D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BE9DF151E4AB5910027566D /* Experimenting with NSCache */;
+			targetProxy = 1BE9DF391E4AB5910027566D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BE9DF1D1E4AB5910027566D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BE9DF1E1E4AB5910027566D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1BE9DF251E4AB5910027566D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BE9DF261E4AB5910027566D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BE9DF3F1E4AB5910027566D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1BE9DF401E4AB5910027566D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BE9DF421E4AB5910027566D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Experimenting with NSCache/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.first.Experimenting-with-NSCache";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1BE9DF431E4AB5910027566D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Experimenting with NSCache/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.first.Experimenting-with-NSCache";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1BE9DF451E4AB5910027566D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Experimenting with NSCacheTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.first.Experimenting-with-NSCacheTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Experimenting with NSCache.app/Experimenting with NSCache";
+			};
+			name = Debug;
+		};
+		1BE9DF461E4AB5910027566D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Experimenting with NSCacheTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.first.Experimenting-with-NSCacheTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Experimenting with NSCache.app/Experimenting with NSCache";
+			};
+			name = Release;
+		};
+		1BE9DF481E4AB5910027566D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Experimenting with NSCacheUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.first.Experimenting-with-NSCacheUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Experimenting with NSCache";
+			};
+			name = Debug;
+		};
+		1BE9DF491E4AB5910027566D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Experimenting with NSCacheUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.first.Experimenting-with-NSCacheUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Experimenting with NSCache";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BE9DF111E4AB5910027566D /* Build configuration list for PBXProject "Experimenting with NSCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE9DF3F1E4AB5910027566D /* Debug */,
+				1BE9DF401E4AB5910027566D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BE9DF411E4AB5910027566D /* Build configuration list for PBXNativeTarget "Experimenting with NSCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE9DF421E4AB5910027566D /* Debug */,
+				1BE9DF431E4AB5910027566D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1BE9DF441E4AB5910027566D /* Build configuration list for PBXNativeTarget "Experimenting with NSCacheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE9DF451E4AB5910027566D /* Debug */,
+				1BE9DF461E4AB5910027566D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1BE9DF471E4AB5910027566D /* Build configuration list for PBXNativeTarget "Experimenting with NSCacheUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE9DF481E4AB5910027566D /* Debug */,
+				1BE9DF491E4AB5910027566D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1BE9DF201E4AB5910027566D /* Experimenting_with_NSCache.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1BE9DF211E4AB5910027566D /* Experimenting_with_NSCache.xcdatamodel */,
+			);
+			currentVersion = 1BE9DF211E4AB5910027566D /* Experimenting_with_NSCache.xcdatamodel */;
+			path = Experimenting_with_NSCache.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1BE9DF0E1E4AB5910027566D /* Project object */;
+}
